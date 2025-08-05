@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+   		
+		<link href="../app/immutable/assets/Seccion.2IR3731M.css" rel="stylesheet">
+		<link href="../app/immutable/assets/0.Bx2iI4VF.css" rel="stylesheet">
+		<link href="../app/immutable/assets/Imagen.XvdSyJua.css" rel="stylesheet">
+		<link rel="modulepreload" href="../app/immutable/entry/start.CI3RQimK.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/DMdKn6kD.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/Bdj5p3cl.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/BUnGPSqw.js">
+		<link rel="modulepreload" href="../app/immutable/entry/app.BTvde4j5.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/DSVT-pCg.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/COtiaFpm.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/0.wioUAYoA.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/Ds9qiwhs.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/C5THWkij.js">
+		<link rel="modulepreload" href="../app/immutable/nodes/6.Cd6wRfRJ.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/BBAru97O.js">
+		<link rel="modulepreload" href="../app/immutable/chunks/2IJRG1QX.js"><!--[--><script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js" defer rel="prefetch" as="script"></script> <script id="MathJax-config">
+		window.MathJax = {
+			loader: {
+				load: ['ui/lazy','[tex]/mathtools']
+			},
+			options:{
+				skipHtmlTags: {'[-]': ['code', 'pre','li', 'span']}
+			}
+			,
+			startup: {
+				pageReady: () => {
+					return MathJax.startup.defaultPageReady();
+				}
+			},
+			tex: {
+				inlineMath: [
+					['$', '$'],
+					['\\(', '\\)']
+				],
+				displayMath: [
+					['$$', '$$'],
+					['\\[', '\\]']
+				],
+				packages: {'[+]': ['mathtools']}
+			}
+		};
+		window.MathJax.typesetClear()
+	</script> <link rel="preconnect" href="https://fonts.googleapis.com"/> <link rel="preconnect" href="https://fonts.gstatic.com"/> <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&amp;family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/><!--]--><!--[--><script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js" defer rel="prefetch" as="script"></script> <script id="MathJax-config">
+		window.MathJax = {
+			loader: {
+				load: ['ui/lazy','[tex]/mathtools']
+			},
+			options:{
+				skipHtmlTags: {'[-]': ['code', 'pre','li', 'span']}
+			}
+			,
+			startup: {
+				pageReady: () => {
+					return MathJax.startup.defaultPageReady();
+				}
+			},
+			tex: {
+				inlineMath: [
+					['$', '$'],
+					['\\(', '\\)']
+				],
+				displayMath: [
+					['$$', '$$'],
+					['\\[', '\\]']
+				],
+				packages: {'[+]': ['mathtools']}
+			}
+		};
+		window.MathJax.typesetClear()
+	</script> <link rel="preconnect" href="https://fonts.googleapis.com"/> <link rel="preconnect" href="https://fonts.gstatic.com"/> <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&amp;family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/><!--]-->
+	</head>
+	<!-- <body data-sveltekit-preload-data="hover"> -->
+		<body data-sveltekit-preload-data="hover">
+		<div style="display: contents; margin: 0 !important;"><!--[--><!--[--><!----><!----> <div class="NavBar NoActivo svelte-1p8aslt"><div class="BarraBotonesMenu svelte-1p8aslt"><button class="BotonMostrar svelte-1p8aslt"><!--[!--><div class="Contenedor svelte-1xngy1c"><span class="Icono material-symbols-rounded svelte-1xngy1c">menu</span></div><!--]--><!----></button> <!--[!--><!--]--></div> <!--[!--><div class="Vacio svelte-1p8aslt"></div><!--]--></div><!----> <div class="Post svelte-1p4camr"><!----><!----> <div class="TextoRuta svelte-1acxrc7"><!--[--><!--[--><!--[!--><!--]--> <!--[--><a class="LinkRuta svelte-1acxrc7" href="/"><!--[!--><!--]--> <!--[--><div class="ContenedorParteIcono svelte-gxgygl"><span class="Icono material-symbols-rounded svelte-gxgygl">school</span></div><!--]--> <!--[!--><!--]--> <span class="TextoRutaResaltado svelte-1acxrc7"></span> <!--[--><span class="TextoRutaNombre svelte-1acxrc7">Estructuras Algebraicas</span><!--]--></a><!--]--><!--]--> <!--[--><a class="LinkRuta svelte-1acxrc7" href="/01-Fundamentos"><!--[-->/ <!--]--> <!--[!--><!--[--><div class="ContenedorParteIcono svelte-gxgygl"><span class="Icono material-symbols-rounded svelte-gxgygl">bookmark</span></div><!--]--><!--]--> <!--[-->Capítulo <!--]--> <span class="TextoRutaResaltado svelte-1acxrc7">2</span> <!--[--><span class="TextoRutaNombre svelte-1acxrc7">Fundamentos</span><!--]--></a><!--]--><!--]--> <!--[--><a class="LinkRuta svelte-1acxrc7" href="/01-Fundamentos/02-Divisibilidad-Primos"><!--[-->/ <!--]--> <!--[!--><!--[!--><!--[--><div class="ContenedorParteIcono svelte-gxgygl"><span class="Icono material-symbols-rounded svelte-gxgygl">history_edu</span></div><!--]--><!--]--><!--]--> <!--[-->Tema <!--]--> <span class="TextoRutaResaltado svelte-1acxrc7">2</span> <!--[!--><!--]--></a><!--]--><!----></div> <div class="ContenidoNombre svelte-1acxrc7"><!---->Divisibilidad y ​<br/> Números Primos<!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PropiedadesBasicasDivisibilidad" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">1</p> <!---->Propiedades básicas de divisibilidad en \( \mathbb{Z} \)<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \( a,b \in  \mathbb{Z}  \backslash       \left.\left.\Rule{0em}{1em}{0em}\right  \{ 0 \right.\left.\Rule{0em}{1em}{0em}\right  \}    \) y \( c,d,e \in  \mathbb{Z}  \). <table class="ListaNumerada svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadAsociados"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,a \right  .    \) y \(     \left  . -a\, \middle \vert\,a \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadTransitiva"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . b\, \middle \vert\,c \right  .    \implies     \left  . a\, \middle \vert\,c \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">c)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadSumaResta"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . a\, \middle \vert\,c \right  .    \implies     \left  . a\, \middle \vert\,b-c \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">d)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadFactorComun"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,b \right  .    \) y \( c \ne 0 \implies     \left  . ac\, \middle \vert\,bc \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">e)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadMultiplos"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,ab \right  .    \) y \(     \left  . b\, \middle \vert\,ab \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">f)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadCombinacionLineal"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . a\, \middle \vert\,c \right  .    \implies     \left  . a\, \middle \vert\,db+ec \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> <table class="ListaNumerada svelte-dt1hii"><!---->\RestaurarValorNumItem <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadCeroUno"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,0 \right  .   \), \(    \left  . 1\, \middle \vert\,a \right  .    \) y \(     \left  . -1\, \middle \vert\,1 \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadUnidad"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,1 \right  .    \implies a=1 \) o \( a=-1 \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">c)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadMutua"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . b\, \middle \vert\,a \right  .    \) ​<br/> \(\implies\) ​<br/> \( a=b \) o \( a=-b \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">d)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DivisibilidadValorAbsoluto"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(     \left  . b\, \middle \vert\,a \right  .    \implies     \left  | b \right  |    \le     \left  | a \right  |    \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----><!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadAsociados" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadAsociados" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Como \( a = 1 \cdot a\) y \( a = (-1) \cdot (-a) \), y \( 1, -1 \in  \mathbb{Z}  \), se tiene que \(     \left  .  a \, \middle \vert\, a  \right  .    \) y \(     \left  .  -a \, \middle \vert\, a  \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadTransitiva" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadTransitiva" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Si \(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . b\, \middle \vert\,c \right  .    \), entonces \( \exists k_1, k_2 \in  \mathbb{Z}  \) tales que \( b = k_{1}a \) y \( c= k_{2}b \). Luego
+
+								\[ c= k_{2}b = k_{2}   \left  ( k_{1}a \right  )   = k_{3}a\]
+
+								donde \( k_{3} \coloneq k_{1}k_{2} \in  \mathbb{Z}  \),  ​<em>i.e.</em> , \( c=k_{3}a\) con \( k_{3} \in  \mathbb{Z}  \), de ahí que \(     \left  . a\, \middle \vert\,c \right  .    \)
+
+								Por tanto, \(     \left  . a\, \middle \vert\,b \right  .    \land     \left  . b\, \middle \vert\,c \right  .    \implies     \left  . a\, \middle \vert\,c \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">3.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadSumaResta" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadSumaResta" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">c)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Supóngase que \(     \left  . a\, \middle \vert\,b \right  .    \) y \(     \left  . a\, \middle \vert\,c \right  .    \), luego \( \exists \ell_{1}, \ell_{2} \in  \mathbb{Z}  \) tales que
+
+								\[ b=\ell_{1}a \Rule{0em}{1em}{0em}\text{y}\Rule{0em}{1em}{0em} c=\ell_{2}a \]
+
+								Así, \( k_{1} \coloneq \ell_{1}+\ell_{2} \in  \mathbb{Z} \; \) y \( \;k_{2} \coloneq \ell_{1} - \ell_{2} \in  \mathbb{Z}  \) satisfacen las siguientes igualdades:
+
+								\[\begin{aligned}
+								        b + c
+								        &amp; = \ell_{1} a + \ell_{2} a\\
+								        &amp; =    \left  (  \ell_{1} + \ell_{2}  \right  )   a \\
+								        &amp; = k_{1} a
+								\end{aligned}
+								\qquad\qquad\qquad
+								\begin{aligned}
+								        b - c
+								        &amp; = \ell_{1} a - \ell_{2} a\\
+								        &amp; =    \left  (  \ell_{1} - \ell_{2}  \right  )   a \\
+								        &amp; = k_{2} a
+								\end{aligned}
+								\]
+
+								de ahí que \(     \left  . a\, \middle \vert\,b+c \right  .    \land     \left  . a\, \middle \vert\,b-c \right  .   \).
+
+								Lo anterior muestra que \(     \left  . a\, \middle \vert\,b \right  .    \land     \left  . a\, \middle \vert\,c \right  .    \implies     \left  . a\, \middle \vert\,b+c \right  .    \land     \left  . a\, \middle \vert\,b-c \right  .   \)
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">4.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadFactorComun" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadFactorComun" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">d)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[\begin{align*}
+								        \left  . a\, \middle \vert\,b \right  .    \land c \ne 0
+								    &amp; \implies \exists k \in  \mathbb{Z}  : b = ka \\
+								    &amp; \implies cb = c(ka) = k(ca) \land ca \ne 0 \\
+								    &amp; \implies     \left  . ca\, \middle \vert\,cb \right  .   
+								\end{align*}\]
+								Es decir, \(     \left  . a\, \middle \vert\,b \right  .    \land c \ne 0 \implies     \left  . ca\, \middle \vert\,cb \right  .    \)
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">5.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadMultiplos" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadMultiplos" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">e)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Como \( ab = ab \) para cada \( b \in  \mathbb{Z}  \), se cumple que \(     \left  . a\, \middle \vert\,ab \right  .    \).
+
+								Análogamente \( ab = ba \) para cada \( a \in  \mathbb{Z}  \), luego \(     \left  . b\, \middle \vert\,ab \right  .    \).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">6.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadCombinacionLineal" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadCombinacionLineal" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">f)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Si \(     \left  . a\, \middle \vert\,b \right  .    \land     \left  . a\, \middle \vert\,c \right  .    \), entonces \( \exists t_{1}, t_{2} \in  \mathbb{Z}  \) tales que \( b = t_{1} a \) y \( c = t_{2} a \). 
+
+								Sean \( k_{1} \coloneq d t_{1}\) y \( k_{2} \coloneq e t_{2}\). Observe que
+
+								\[\begin{aligned}
+								    db
+								    &amp; = d ( t_{1} a )\\
+								    &amp; = (d  t_{1}) a  \\
+								    &amp; = k_{1} a
+								\end{aligned}
+								\qquad\qquad\qquad
+								\begin{aligned}
+								    ec
+								    &amp; = e ( t_{2} a )\\
+								    &amp; = (e  t_{2}) a  \\
+								    &amp; = k_{2} a
+								\end{aligned}
+								\]
+
+								 ​<em>i.e.</em> \(     \left  . a\, \middle \vert\,db \right  .    \) y \(     \left  . a\, \middle \vert\,ec \right  .    \). Utilizando <div id="ITE-DivisibilidadSumaResta" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadSumaResta" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">c)</span><!--]--> <!--[!--><!--]--></a></div><!----> se obtiene que \(     \left  . a\, \middle \vert\,db+ec \right  .    \).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">7.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadCeroUno" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadCeroUno" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Note  que \(0, a, -a \in  \mathbb{Z}  \), además
+
+								\[ 0 = a \cdot 0 ,\; a = 1 \cdot a \;\;\text{y}\;\; -a = (-1)(-a) \]
+
+								Así tenemos que
+
+								\[     \left  . a\, \middle \vert\,0 \right  .   ,\;     \left  . 1\, \middle \vert\,a \right  .    \text{ y }     \left  . -1\, \middle \vert\,a \right  .   \]
+
+								respectivamente.
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">8.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadUnidad" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadUnidad" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Si \(     \left  . a\, \middle \vert\,1 \right  .    \), entonces \( \exists k \in  \mathbb{Z}  : 1 = ak \) y \( k \ne 0 \).
+								Así \( 1 =     \left  | 1 \right  |    =     \left  | ka \right  |    =     \left  | k \right  |    \cdot     \left  | a \right  |   \), luego \(1 =     \left  | k \right  |    \cdot     \left  | a \right  |    \), donde \(     \left  | k \right  |   ,     \left  | a \right  |    \in  \mathbb{N}  \). Veamos que \(     \left  | k \right  |     = 1 \) procediendo por contradicción: <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">8.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Supóngase que \(     \left  | k \right  |    \ne 1 \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Por tricotomía, obtenemos los siguientes casos <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">8.1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(     \left  | k \right  |    &lt; 1 \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Se tiene  que \(     \left  | k \right  |    \notin  \mathbb{N}  \), pues \( \min   \left  (  \mathbb{N}  \right  )   = 1\)
+														<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">8.1.2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(     \left  | k \right  |    > 1 \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[1=     \left  | a \right  |        \left  | k \right  |   >     \left  | a \right  |   \]
+
+																luego  \(     \left  | a \right  |    \notin  \mathbb{N}  \) pues \( \min   \left  (  \mathbb{N}  \right  )   = 1\)
+														<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> De cualquier manera se  obtiene que \(     \left  | k \right  |    \notin  \mathbb{N}  \lor     \left  | a \right  |    \notin  \mathbb{N} \)
+										<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> Así , \(    \left  | k \right  |    = 1 \), y por consiguiente
+
+								\[1 =     \left  | k \right  |    \cdot     \left  | a \right  |    =     \left  | a \right  |   \]
+
+								Por lo que \( a = 1 \lor a = -1 \).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">9.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadMutua" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadMutua" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">c)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Si  \(    \left  . a\, \middle \vert\,b \right  .   \) y \(    \left  . b\, \middle \vert\,a \right  .   \), entonces
+
+								\[\begin{align*}
+								    &amp;\exists k_{1}, k_{2} \in  \mathbb{Z} : b=k_{1}a \text{ y } a=k_{2}b\\
+								    &amp;\implies a=k_{1}   \left  ( k_{2}a \right  )  \\
+								    &amp;\implies a=   \left  ( k_{1}k_{2} \right  )  a\\
+								    &amp;\implies 1\cdot a=   \left  ( k_{1}k_{2} \right  )  a\\
+								    &amp;\implies    \left  ( 1-k_{1}k_{2} \right  )  \cdot a=0\\
+								    &amp;\implies 1-k_{1}k_{2}=0 \text{ pues \(a \ne 0\)}\\
+								    &amp;\implies 1=k_{1}k_{2}\\
+								    &amp;\implies     \left  . k_{1}\, \middle \vert\,1 \right  .   \\
+								    &amp;\implies k_{1}=1 \lor k_{1}=-1\\
+								    &amp;\implies k_{1}b=b \lor k_{1}b=-b\\
+								    &amp;\implies a=b \lor a=-b
+								\end{align*}\]
+
+								Así \(    \left  . a\, \middle \vert\,b \right  .    \land     \left  . b\, \middle \vert\,a \right  .   \implies a=b \lor a=-b\). 
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">10.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DivisibilidadValorAbsoluto" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DivisibilidadValorAbsoluto" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">d)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Si \(    \left  . b\, \middle \vert\,a \right  .   \)
+								\[\begin{align*}
+								    &amp;\implies \exists k_{1} \in  \mathbb{Z} : b=k_{1}a &amp;ZeroWidthSpace;&lt;br/> 
+								    &amp;\implies     \left  | a \right  |   =    \left  | k_{1} \right  |       \left  | b \right  |    &amp;ZeroWidthSpace;&lt;br/> 
+								    &amp;\implies     \left  | a \right  |   \ge    \left  | k_{1} \right  |       \left  | b \right  |    \land     \left  | k_{1} \right  |   \ge 1 \text{, pues \(    \left  | k_{1} \right  |   ,     \left  | b \right  |    \in  \mathbb{N} \)}\\
+								    &amp;\implies     \left  | a \right  |   \ge    \left  | b \right  |     
+								\end{align*}\]
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> Por tanto, se cumplen todas las propiedades enunciadas.<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-ParticionRealesEnteros" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">2</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(x\in \mathbb{R} \), entonces existe un único número entero \(m\) tal que \(x\in[m,m+1)\).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><table class="ListaFragmentosNumerada svelte-dt1hii"><!---->\ActualizarEtiquetaListaPorNivel[\EtiquetaListaFragmentosPrimerNivel][1] <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="FRA-ParticionRealesEnterosCasoPositivo"><div class="Argumento svelte-1fub3j9"><!---->Si \(x>0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Considere el conjunto \(A=    \left.\left.\Rule{0em}{1.3em}{0em}\right  \{ n\in \mathbb{N} \; \left.\Rule{0em}{1.3em}{0em}\right \vert\;x&lt;n \right.\left.\Rule{0em}{1.3em}{0em}\right  \}   \subseteq  \mathbb{N} \). 
+								Note que \(A\ne\varnothing\) por la Propiedad Arquimediana. Así, \(A\subseteq \mathbb{N} \) y \(A\ne\varnothing\), por lo que \(A\) tiene mínimo por el <div id="ELE-PrincipioBuenOrden" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/01-Induccion-Matematica#ELE-PrincipioBuenOrden" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Axioma</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">2</span><!--]--> <!--[--><span class="svelte-1letzo6">Principio del Buen Orden</span><!--]--></a></div><!---->. Sea \(n_{0}=\min A\in A\). <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(n_{0}-1>0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(n_{0}-1\in \mathbb{N} \) y \(n_{0}-1\notin A\), es decir, \(n_{0}-1\le x\), pero \(x&lt;n_{0}\). Sea \(m\coloneq n_{0}-1\), de ahí que
+
+												\[m\le x &lt; m+1=n_{0}\]
+
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(n_{0}-1=0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(n_{0}=1\), y como \(x>0\), se cumple que \(0&lt;x&lt;1\). Sea \(m\coloneq 0\), luego \(m&lt;x&lt;m+1\), lo cual implica
+
+												\[m\le x&lt;m+1\]
+
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> En cualquiera de los casos anteriores, \(x\in [m, m+1)\). 
+								Por tanto, existe un número entero \(m\) tal que \(x\in [m, m+1)\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(x=0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Tomamos \(m=0\), y así
+
+								\[m\le x&lt;m+1=1\]
+
+								Luego, existe un número entero \(m\) tal que \(x\in [m, m+1)\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">3.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \( x&lt;0 \land x \notin  \mathbb{Z} \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Entonces \( -x>0 \), además \(-x  \notin  \mathbb{Z} \). Aplicando el <div id="FRA-ParticionRealesEnterosCasoPositivo" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#FRA-ParticionRealesEnterosCasoPositivo" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Caso</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">1.</span><!--]--> <!--[!--><!--]--></a></div><!---->,
+
+								\[\exists m_{0} : -x \in [m_{0}, m_{0}+1)
+								\]
+
+								como \(x \notin  \mathbb{Z} \), entonces \(x \ne m_{0}\), por lo que
+
+								\[\begin{align*}
+								    &amp;-x \in (m_{0}, m_{0}+1)\\
+								    &amp;\implies m_{0} &lt; -x &lt; m_{0}+1\\
+								    &amp;\implies -m_{0}-1 &lt; x &lt; -m_{0}\\
+								    &amp;\implies x \in (-m_{0}-1, -m_{0})\\
+								    &amp;\implies x \in    \left.\left.\Rule{0em}{1.2em}{0em}\right  [ -m_{0}-1, (-m_{0}-1)+1 \right.\left.\Rule{0em}{1.2em}{0em}\right  )  
+								\end{align*}\]
+
+								Sea \(m\coloneq -m_{0}-1\), así
+
+								\[x \in [m,m+1) =    \left.\left.\Rule{0em}{1.2em}{0em}\right  [ -m_{0}-1, (-m_{0}-1)+1 \right.\left.\Rule{0em}{1.2em}{0em}\right  )  \]
+
+								En consecuencia, existe \(m \in  \mathbb{Z} \) tal que \(x\in [m, m+1)\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">4.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(x&lt;0 \land x \in  \mathbb{Z} \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Es claro que \(x \in [x,x+1) \). Tomando \(m = x \in  \mathbb{Z} \), se tiene que \(x\in[m,m+1)\).
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> En cualquier caso, existe \(m\in \mathbb{Z} \) tal que \(x \in [m,m+1)\).
+
+				La unicidad se da por el <div id="ITE-PropiedadesEnterosParticionParteEntera" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/01-Induccion-Matematica#ITE-PropiedadesEnterosParticionParteEntera" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Inciso</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">e)</span><!--]--> <!--[!--><!--]--></a></div><!----> de la <div id="ELE-PropiedadesEnteros" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/01-Induccion-Matematica#ELE-PropiedadesEnteros" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Proposicion</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">20</span><!--]--> <!--[--><span class="svelte-1letzo6">Propiedades de \(  \mathbb{Z}  \)</span><!--]--></a></div><!---->. Así,
+
+				\[\forall x \in  \mathbb{R}  : \exists ! m \in  \mathbb{Z}  : x \in [m,m+1)   \]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-ParteEntera" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">3</p> <!---->Parte entera<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sea \(x \in  \mathbb{R} \). Denotamos por \(    \left  \lfloor x \right  \rfloor   \) al único número entero que cumple que
+
+				\[x\in   \left.\left.\Rule{0em}{1.2em}{0em}\right  [     \left  \lfloor x \right  \rfloor   ,    \left  \lfloor x \right  \rfloor   +1 \right.\left.\Rule{0em}{1.2em}{0em}\right  )  \]
+
+				Llamaremos al entero \(    \left  \lfloor x \right  \rfloor   \) la parte entera de \(x\), el cual es el entero más grande menor o igual a \(x\).<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Ejemplo</p> <p class="NumElemento svelte-o48oam">4</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->\(    \left  \lfloor \pi \right  \rfloor   =3\), \(    \left  \lfloor      \left.\left.\Rule{0em}{1em}{0em}\right  \{ 0 \right.\left.\Rule{0em}{1em}{0em}\right  \}     \right  \rfloor   =2\), \(    \left  \lfloor \sqrt{2} \right  \rfloor   =1\), \(    \left.\left.\Rule{0em}{1.3em}{0em}\right  \lfloor \frac{5}{2} \right.\left.\Rule{0em}{1.3em}{0em}\right  \rfloor   =2\) y \(    \left.\left.\Rule{0em}{1.3em}{0em}\right  \lfloor -\frac{1}{2} \right.\left.\Rule{0em}{1.3em}{0em}\right  \rfloor   =-1\)<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-ParteEnteraIntervalo" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">5</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->\[\forall x \in  \mathbb{R}  :     \left  \lfloor x \right  \rfloor    \in (x-1,x]\]<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Por la <div id="ELE-ParteEntera" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-ParteEntera" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Definicion</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">3</span><!--]--> <!--[!--><!--]--></a></div><!---->,
+				\[\begin{align*}
+				    &amp;\forall x \in  \mathbb{R} :     \left  \lfloor x \right  \rfloor    \le x &lt;     \left  \lfloor x \right  \rfloor   +1\\
+				    &amp;\implies  \forall x \in  \mathbb{R} : x-1 &lt;     \left  \lfloor x \right  \rfloor    \land \forall x \in  \mathbb{R} :     \left  \lfloor x \right  \rfloor    \le x\\
+				    &amp;\implies  \forall x \in  x-1 &lt;     \left  \lfloor x \right  \rfloor    \le x
+				\end{align*}\]
+				Por lo anterior, se concluye que
+
+				\[\forall x \in  \mathbb{R}  :     \left  \lfloor x \right  \rfloor    \in (x-1,x]  \]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-AlgoritmoDivision" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">6</p> <!---->Algoritmo de la división<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Margen<NOT-ConceptoCocienteResiduo>Si \(a\) y \(b\) son enteros tales que \(b>0\). Entonces existe un único par de enteros \(q\) y \(r\) tales que \(a=qb+r\) con \(0 \le r &lt;b\).</NOT-ConceptoCocienteResiduo><!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Sean \(q=    \left.\left.\Rule{0em}{1.3em}{0em}\right  \lfloor \frac{a}{b} \right.\left.\Rule{0em}{1.3em}{0em}\right  \rfloor   \) y \(r=a-    \left.\left.\Rule{0em}{1.3em}{0em}\right  \lfloor \frac{a}{b} \right.\left.\Rule{0em}{1.3em}{0em}\right  \rfloor   b=a-qb\), luego \(q,r \in  \mathbb{Z} \), y \(a=qb+r\).
+
+				Por el <div id="ELE-ParteEnteraIntervalo" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-ParteEnteraIntervalo" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">5</span><!--]--> <!--[!--><!--]--></a></div><!---->,
+				\[\begin{align*}
+				    &amp;\forall x \in  \mathbb{R}  : \frac{a}{b}-1 &lt;     \left  \lfloor \frac{a}{b} \right  \rfloor   \le \frac{a}{b}\\
+				    &amp;\implies a-b &lt;     \left  \lfloor \frac{a}{b} \right  \rfloor   b \le a\\
+				    &amp; \implies -a \le -    \left  \lfloor \frac{a}{b} \right  \rfloor   b &lt; b-a\\
+				    &amp;\implies 0 \le a -    \left  \lfloor \frac{a}{b} \right  \rfloor   b &lt; b\\
+				    &amp;\implies 0 \le r &lt; b\\
+				\end{align*}\]
+				Por consiguiente,
+
+				\[\exists q,r \in  \mathbb{Z}  : a=qb+r \land 0\le r &lt; b\]
+
+				Ahora veamos que \(q\) y \(r\) forman el único par de enteros con esta propiedad. Para ello, procedamos por contradicción: <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si existen dos pares distintos de enteros \((q_{1},r_{1}), (q_{2},r_{2})\) que satisfacen
+										    \[\begin{align*}
+										        a=q_{1}b+r_{1} \land 0 \le r_{1} &lt; b\\
+										        a=q_{2}b+r_{2} \land 0 \le r_{2} &lt; b
+										    \end{align*}\]<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Como \((q_{1},r_{1})\ne(q_{2},r_{2})\) se tiene que \(q_{1}\ne q_{2} \lor r_{1}\ne r_{2}\), o equivalentemente \(q_{1}-q_{2}\ne 0 \lor r_{1}-r_{2}\ne 0\). Sin embargo, note que 
+								\[\begin{align*}
+								    &amp;q_{1}b+r_{1}=q_{2}b+r_{2}\\
+								    &amp;\implies (q_{1}-q_{2})b=(r_{2}-r_{1})
+								\end{align*}\]
+								Es decir, \(q_{1}-q_{2}=0 \iff r_{1}-r_{2}=0\), por lo que \(q_{1}-q_{2}\ne 0\) y \(r_{1}-r_{2}\ne 0\). Luego
+								\[\begin{align*}
+								    &amp;(q_{1}-q_{2})b=(r_{2}-r_{1})\\
+								    &amp;\implies     \left  . b\, \middle \vert\,(r_2-r_1) \right  .    \land r_2-r_1\ne 0\\
+								    &amp;\implies b =     \left  | b \right  |    \le     \left  | r_2-r_1 \right  |    \cssId{ALT-DesigualdadResiduos}{\class{Expresion}{\class{material-symbols-rounded}{}}} \class{ExpresionNumero}{1}
+								\end{align*}\]
+								Por otro lado, dado que \(0\le r_{1}&lt;b\) y  \(0\le r_{2}&lt;b\):
+								\[\begin{align*}
+								    r_{2}&lt;b &amp;\implies r_{2}-r_{1}&lt;b-r_1&lt;b\\
+								    -b &lt; -r_{1}&amp;\implies -b&lt; -r_{1} \le r_{2}-r_{1}
+								\end{align*}\]
+								Observe que \(-b&lt;r_{2}-r_{1}&lt;b\) implica \(    \left  | r_{2}-r_{1} \right  |   &lt;b\), pero esto no es posible por la <div id="ALT-DesigualdadResiduos" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ALT-DesigualdadResiduos" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Expresión</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[--><div class="ContenedorLinkIcono svelte-vhp006"><span class="Icono material-symbols-rounded svelte-vhp006">star</span></div><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">1</span><!--]--> <!--[!--><!--]--></a></div><!---->.
+						<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> \ImprimirPorTanto Existe un único par de enteros \(q\) y \(r\) tales que \(a=qb+r\) con \(0 \le r &lt;b\).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Ejemplo</p> <p class="NumElemento svelte-o48oam">7</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Determinar  el cociente y el residuo de la división de \(a\) entre \(b\) si <table class="ListaNumerada svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-Dividir1028Entre34"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(a=1028\) y \(b=34\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DividirMenos380Entre75"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(a=-380\) y \(b=75\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----><!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Solución</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Por <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!----> <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-Dividir1028Entre34" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-Dividir1028Entre34" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[\begin{align*}
+								    q&amp;=    \left  \lfloor \frac{a}{b} \right  \rfloor   =    \left  \lfloor \frac{1028}{30} \right  \rfloor   \\
+								    &amp;=30\\
+								    r&amp;=a-qb=1028 - 30 \cdot 34 =1028-1020\\
+								    &amp;=8
+								\end{align*}\]
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DividirMenos380Entre75" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DividirMenos380Entre75" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[\begin{align*}
+								    q&amp;=    \left  \lfloor \frac{a}{b} \right  \rfloor   =    \left  \lfloor \frac{-380}{75} \right  \rfloor   \\
+								    &amp;=-6\\
+								    r&amp;=a-qb=-380 - 75 \cdot (-6) = -380 + 450\\
+								    &amp;=70
+								\end{align*}\]
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> En ambos casos \(a=qb+r\) y \(0 \le r &lt; b\).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-MCD" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">8</p> <!---->Máximo común divisor<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->El máximo común divisor de dos enteros \(a\) y \(b\), no ambos cero, es el entero positivo más grande \(d\) que  divide simultáneamente a \(a\) y a \(b\), el cual se denota por
+
+				\[    \left  ( a,b \right  )    \text{ o simplemente }  \operatorname{MCD}   \left  ( a,b \right  )   \]<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PrimosRelativosCoprimos" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">9</p> <!---->Primos relativos<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Los enteros \(a\) y \(b\) son primos relativos o coprimos si \( \operatorname{MCD}   \left  ( a,b \right  )   =1\).<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Ejemplo</p> <p class="NumElemento svelte-o48oam">10</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><table class="ListaNumerada svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\( \operatorname{MCD}   \left  ( 24,84 \right  )   =12\), ya que los divisores comunes de \(24\) y \(84\) son
+
+								\[ \pm 1, \pm 3, \pm 4, \pm 6 \text{ y } \pm 12
+								\]
+
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\( \operatorname{MCD}   \left  ( 15,81 \right  )   =3\), ya que los divisores comunes de \(15\) y \(81\) son
+								\[\pm 1 \text{ y } \pm 3\]
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">c)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\( \operatorname{MCD}   \left  ( 100,5 \right  )   =4\) y \( \operatorname{MCD}   \left  ( 0,44 \right  )   =44\).
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">d)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(17\) y \(25\) son coprimos, así como \(25\) y \(42\), y los números \(17\) y \(19\), ya que
+
+								\[ \operatorname{MCD}   \left  ( 17,25 \right  )   = \operatorname{MCD}   \left  ( 25,42 \right  )   = \operatorname{MCD}   \left  ( 17,19 \right  )   =1\]
+
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----></div><!----><!----></div><!----> \EspacioVerticalEm-2 <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PropiedadesSumaDivisionMcd" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Proposición</p> <p class="NumElemento svelte-o48oam">11</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a,b,c\in \mathbb{Z} \) con \(d= \operatorname{MCD}   \left  ( a,b \right  )   \). Entonces <table class="ListaNumerada svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-DividirPorMcdCoprimos"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\( \operatorname{MCD}   \left  ( \frac{a}{d}, \frac{b}{d} \right  )   =1\)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-SumarMultiplosNoAlteraMcd"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\( \operatorname{MCD}   \left  ( a+cb,b \right  )   = \operatorname{MCD}   \left  ( a,b \right  )   \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----><!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-DividirPorMcdCoprimos" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-DividirPorMcdCoprimos" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Sean \(a,b \in  \mathbb{Z} \) y \(d= \operatorname{MCD}   \left  ( a,b \right  )   \). Sea \(t= \operatorname{MCD}   \left  ( \frac{a}{d}, \frac{b}{d} \right  )   \), entonces
+
+								\[    \left  . t\, \middle \vert\,\frac{a}{d} \right  .    \text{ y }     \left  . t\, \middle \vert\,\frac{b}{d} \right  .   \]
+
+								Luego, existen \(k_{1}, k_{2} \in  \mathbb{Z} \) tales que
+
+								\[\frac{a}{d}=k_{1}t \land \frac{b}{d}=k_{2}t\]
+
+								por lo que
+
+								\[\begin{align*}
+								    &amp;a=k_{1}(td) \land b=k_{2}(td)\\
+								    &amp;\implies     \left  . td\, \middle \vert\,a \right  .    \land     \left  . td\, \middle \vert\,b \right  .   \\
+								    &amp;\implies td \le d\\
+								    &amp;\implies t\le 1\\
+								    &amp;\implies t=1
+								\end{align*}\]
+								En consecuencia, se concluye que \( \operatorname{MCD}   \left  ( \frac{a}{d}, \frac{b}{d} \right  )   =1\).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><div id="ITE-SumarMultiplosNoAlteraMcd" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-SumarMultiplosNoAlteraMcd" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Sean \(a,b,c\in \mathbb{Z} \). Mostraremos que los divisores comunes de \(a\) y \(b\) coinciden con los divisores comunes de \(a+cb\) y \(b\).
+
+								Sea \(t\in \mathbb{Z} \) <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(    \left  . t\, \middle \vert\,a \right  .    \land     \left  . t\, \middle \vert\,b \right  .   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->entonces \(    \left  . t\, \middle \vert\,cb \right  .   \). Luego \(    \left  . t\, \middle \vert\,a+cb \right  .   \). Así
+
+												\[    \left  . t\, \middle \vert\,a+cb \right  .    \land     \left  . t\, \middle \vert\,b \right  .   \]
+
+												Es decir, \(t\) es un divisor común de \(a+cb\) y \(b\).
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(    \left  . t\, \middle \vert\,a+cb \right  .    \land     \left  . t\, \middle \vert\,b \right  .   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->se tiene que \(    \left  . t\, \middle \vert\,cb \right  .   \), lo que implica \(    \left  . t\, \middle \vert\,(a+cb)-cb \right  .   \), es decir \(    \left  . t\, \middle \vert\,a \right  .   \). En consecuencia
+
+												\[    \left  . t\, \middle \vert\,a \right  .    \land     \left  . t\, \middle \vert\,b \right  .   \]
+
+												Por lo que \(t\) es un divisor común de \(a\) y \(b\).
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> Es decir \(t\) es un divisor común de \(a\) y \(b\) sí y sólo sí \(t\) es un divisor común de \(a+cb\) y \(b\).
+
+								    Por consiguiente, \(a\) y \(b\) tienen los mismos divisores comunes que \(a+cb\) y \(b\),  lo cual implica
+
+								    \[ \operatorname{MCD}   \left  ( a,b \right  )   = \operatorname{MCD}   \left  ( a+cb,b \right  )     \]
+
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> \EspacioVerticalEm-1 <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-CombinacionLinealEnteros" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">12</p> <!---->Combinación lineal<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(a\) y \(b\) son enteros, una combinación lineal de \(a\) y \(b\) es una suma de la forma \(ma+nb\) para algunos \(m,n \in  \mathbb{Z} \).<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-IdentidadBezout" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">13</p> <!---->Identidad de Bézout<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->El máximo común divisor \(d\) de los enteros \(a\) y \(b\), no ambos cero, es el menor entero positivo que es una combinación lineal de \(a\) y \(b\).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Sea
+
+				    \[A=    \left.\left.\Rule{0em}{1.3em}{0em}\right  \{ n\in \mathbb{N} \; \left.\Rule{0em}{1.3em}{0em}\right \vert\;\exists s,t\in  \mathbb{Z} : n=sa+tb \right.\left.\Rule{0em}{1.3em}{0em}\right  \}   \subseteq  \mathbb{N} \]
+
+				    Veamos que \(A\ne\varnothing\). Supóngase sin pérdida de la generalidad que \(a\ne 0\). <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(a>0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[a=1\cdot a + 0 \cdot b\in A\]
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(a&lt;0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\[-a=(-1)\cdot a + 0 \cdot b\in A\]
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> En cualquier caso, \(A\ne\varnothing\).
+
+				    Por <div id="ELE-PrincipioBuenOrden" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/01-Induccion-Matematica#ELE-PrincipioBuenOrden" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Axioma</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">2</span><!--]--> <!--[--><span class="svelte-1letzo6">Principio del Buen Orden</span><!--]--></a></div><!---->, \(A\) tiene mínimo, a saber \(d=\min(A)\), de ahí que \(d=ma+nb\) para algunos \(m,n\in \mathbb{Z} \). ​<br/> <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Veamos que \(d= \operatorname{MCD}   \left  ( a,b \right  )   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Por el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[!--><!--]--></a></div><!---->, al dividir \(a\) por \(d\), obtenemos un cociente y residuo, es decir, existen \(q,r\in  \mathbb{Z} \) tales  que \(a=qd+r\land 0\le r &lt; d\)
+								\[\begin{align*}
+								    &amp;\implies r=a-qd\\
+								    &amp;\implies r=a-q(ma+nb)\\
+								    &amp;\implies r=(1-qm)a+(-qn)b
+								\end{align*}\]
+								Observe que <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(r>0\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\EspacioVerticalEm-2\[\begin{align*}
+												    &amp;r=(1-qm)a+(-qn)b\in A\\
+												    &amp;\implies d=\min(A)\le r
+												\end{align*}\]
+												Pero esto es imposible, pues \(0\le r &lt; d\),
+										<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> Luego, \(r=0\), por lo que \(    \left  . d\, \middle \vert\,a \right  .   \). De manera análoga se exhibe que \(    \left  . d\, \middle \vert\,b \right  .   \), así:
+
+								\[    \left  . d\, \middle \vert\,a \right  .   \land     \left  . d\, \middle \vert\,b \right  .   \]
+
+								Sea \(c\in \mathbb{Z} \). Note que si \(c\) es un divisor común de \(a\) y \(b\)
+								\[\begin{align*}
+								    &amp;    \left  . c\, \middle \vert\,a \right  .   \land     \left  . c\, \middle \vert\,b \right  .   \\
+								    &amp;\implies     \left  . c\, \middle \vert\,ma \right  .   \land     \left  . c\, \middle \vert\,nb \right  .   \\
+								    &amp;\implies     \left  . c\, \middle \vert\,ma+nb \right  .   \\
+								    &amp;\implies     \left  . c\, \middle \vert\,d \right  .   \\
+								    &amp;\implies c\le     \left  | c \right  |    \le     \left  | d \right  |   = d\\
+								    &amp;\implies c\le d
+								\end{align*}\]
+								Por la <div id="ELE-MCD" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-MCD" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Definicion</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">8</span><!--]--> <!--[--><span class="svelte-1letzo6">Máximo común divisor</span><!--]--></a></div><!---->, \(d= \operatorname{MCD}   \left  ( a,b \right  )   \), pues es el mayor de todos los divisores comunes de \(a\) y \(b\).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----></table><!----> En conclusión, \(d=\min(A)= \operatorname{MCD}   \left  ( a,b \right  )   \) es el menor entero positivo que es una combinación lineal de \(a\) y \(b\).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-CoprimosUnoCombinacionLineal" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Corolario</p> <p class="NumElemento svelte-o48oam">14</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(a\) y \(b\) son primos relativos, entonces existen enteros \(m\) y \(n\) tales que \(ma+nb=1\)<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Como \(a\) y \(b\) son primos relativos, \( \operatorname{MCD}   \left  ( a,b \right  )   =1=\min( \mathbb{N} )\). Por el <div id="ELE-IdentidadBezout" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-IdentidadBezout" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">13</span><!--]--> <!--[!--><!--]--></a></div><!---->,
+
+				\[\exists m,n \in  \mathbb{Z} : 1=ma+nb\]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-CombinacionesLinealesIdealGeneradoMcd" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">15</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(a,b \in  \mathbb{N} \), entonces el conjunto de combinaciones lineales de \(a\) y \(b\) es el conjunto de enteros múltiplos de \( \operatorname{MCD}   \left  ( a,b \right  )   \).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Sean \(d= \operatorname{MCD}   \left  ( a,b \right  )   \),
+				\[\begin{align*}
+				     a\mathbb{Z} + b\mathbb{Z} 
+				    &amp;=    \left.\left.\Rule{0em}{1.3em}{0em}\right  \{ s \in  \mathbb{Z} \; \left.\Rule{0em}{1.3em}{0em}\right \vert\;\exists m,n \in  \mathbb{Z} : s=ma+nb \right.\left.\Rule{0em}{1.3em}{0em}\right  \}   \\
+				        \left  ( d \right  )   
+				    &amp;=    \left.\left.\Rule{0em}{1.3em}{0em}\right  \{ t\in \mathbb{Z} \; \left.\Rule{0em}{1.3em}{0em}\right \vert\;\exists k \in  \mathbb{Z} : t=kd \right.\left.\Rule{0em}{1.3em}{0em}\right  \}   \\
+				    &amp;= d\mathbb{Z} 
+				\end{align*}\]
+				Finalmente, sólo hace falta <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Probar que \( a\mathbb{Z} + b\mathbb{Z} \subseteq     \left  ( d \right  )   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Sea \(s\in  a\mathbb{Z} + b\mathbb{Z} \), entonces \(s=ma+nb\) para algunos \(m,n\in \mathbb{Z} \). Como \(d= \operatorname{MCD}   \left  ( a,b \right  )   \)
+								\[\begin{align*}
+								    &amp;    \left  . d\, \middle \vert\,a \right  .   \land     \left  . d\, \middle \vert\,b \right  .   \\
+								    &amp;\implies     \left  . d\, \middle \vert\,ma \right  .   \land     \left  . d\, \middle \vert\,nb \right  .   \\
+								    &amp;\implies     \left  . d\, \middle \vert\,ma+nb \right  .   \\
+								    &amp;\implies     \left  . d\, \middle \vert\,s \right  .   \\
+								    &amp;\implies \exists k \in  \mathbb{Z} : s=kd\\
+								    &amp;\implies s\in    \left  ( d \right  )   
+								\end{align*}\]
+								Así  \( a\mathbb{Z} + b\mathbb{Z} \subseteq     \left  ( d \right  )   \)
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Muestre que \(    \left  ( d \right  )   \subseteq a\mathbb{Z} + b\mathbb{Z} \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Sea \(t\in     \left  ( d \right  )   \). Como \(d=\Minimo{ a\mathbb{Z} + b\mathbb{Z} }\), se tiene que \(d=ua+vb\) para algunos \(u,v\in \mathbb{Z} \). Luego
+								\[\begin{align*}
+								   &amp;\exists k \in  \mathbb{Z} : t=kd\\
+								   &amp;\implies t=k(ua+vb)\\
+								   &amp;\implies t=(ku)a+(kv)b\\
+								   &amp;\implies t=u^{\prime}a+v^{\prime}b \text{ donde } u\coloneq ku, v\coloneq kv \in  \mathbb{Z} \\
+								   &amp;\implies t\in  a\mathbb{Z} + b\mathbb{Z} 
+								\end{align*}\]
+								así \(    \left  ( d \right  )   \subseteq a\mathbb{Z} + b\mathbb{Z} \).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> Por lo anterior, \( a\mathbb{Z} + b\mathbb{Z}  =     \left  ( d \right  )   \).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-CaracterizacionMcdPorDivisibilidad" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">16</p> <!---->Caracterización de \( \operatorname{MCD}   \left  ( a,b \right  )   \) por divisibilidad<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(a\) y \(b\) son enteros, no ambos cero, entonces un entero positivo \(d\) es el máximo común divisor de \(a\) y \(b\) sí y sólo sí <table class="ListaNumerada svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">a)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-EsDivisorComun"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(    \left  . d\, \middle \vert\,a \right  .    \text{ y }    \left  . d\, \middle \vert\,b \right  .   \)
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">b)</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9" id="ITE-TodoDivisorComunDivide"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(    \left  . c\, \middle \vert\,a \right  .    \text{ y }     \left  . c\, \middle \vert\,b \right  .    \implies     \left  . c\, \middle \vert\,d \right  .   \) 
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----><!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Suponga que \(d= \operatorname{MCD}   \left  ( a,b \right  )   \), luego \(    \left  . d\, \middle \vert\,a \right  .    \land     \left  . d\, \middle \vert\,b \right  .   \) y así, se cumple <div id="ITE-EsDivisorComun" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-EsDivisorComun" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!---->.
+
+								   Por otro lado, \(d=ma+nb\) para algunos \(m,n\in \mathbb{Z} \). Sea \(c\in \mathbb{Z} \). Observe que
+								\[\begin{align*}
+								        \left  . c\, \middle \vert\,a \right  .   \land     \left  . c\, \middle \vert\,b \right  .   
+								    &amp;\implies     \left  . c\, \middle \vert\,ma \right  .    \land     \left  . c\, \middle \vert\,nb \right  .   \\
+								    &amp;\implies     \left  . c\, \middle \vert\,ma+nb \right  .   \\
+								    &amp;\implies     \left  . c\, \middle \vert\,d \right  .   
+								\end{align*}\]
+								Así
+
+								\[    \left  . c\, \middle \vert\,a \right  .    \land     \left  . c\, \middle \vert\,b \right  .    \implies     \left  . c\, \middle \vert\,d \right  .   \]
+
+								de ahí que se satisface la condición <div id="ITE-TodoDivisorComunDivide" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-TodoDivisorComunDivide" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!---->.
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Por <div id="ITE-EsDivisorComun" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-EsDivisorComun" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">a)</span><!--]--> <!--[!--><!--]--></a></div><!---->, tenemos que
+
+								\[    \left  . d\, \middle \vert\,a \right  .   \land     \left  . d\, \middle \vert\,b \right  .   \]
+
+								Ahora, si \(c\) es un divisor común de \(a\) y \(b\), es decir, \(    \left  . c\, \middle \vert\,a \right  .   \) y \(    \left  . c\, \middle \vert\,b \right  .   \). Por <div id="ITE-TodoDivisorComunDivide" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-TodoDivisorComunDivide" class="svelte-1letzo6"><!--[!--><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!---->, tenemos que \(    \left  . c\, \middle \vert\,d \right  .   \). Luego
+
+								\[c\le     \left  | c \right  |    \le     \left  | d \right  |    =d\]
+
+								 ​<em>i.e.</em> \(c\le d\). Por lo que \(d= \operatorname{MCD}   \left  ( a,b \right  )   \).
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> ~\EspacioVerticalEm-2 <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">17</p> <!---->Máximo común divisor<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a_{1}, a_{2},\dots,a_{n}\) enteros no todos iguales a cero. Su máximo común divisor es el entero positivo más grande que divide a cada uno de los enteros \(a_{1}, a_{2},\dots, a_{n}\). ​<br/> El máximo común divisor de \(a_{1}, a_{2},\dots,a_{n}\) es denotado por
+
+				\[    \left  ( a_{1}, a_{2},\dots,a_{n} \right  )    \text{ o simplemente }  \operatorname{MCD}   \left  ( a_{1}, a_{2},\dots,a_{n} \right  )   \]<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-McdMenorMcdRecursivo" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">18</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(s\) es un entero positivo tal que \(    \left  . s\, \middle \vert\,a_{i} \right  .   \) para cada \(i\in \mathbb{N} MenoresIgualesA{n}\), entonces \(s\) es menor o igual a \( \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )   \)<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->En efecto, sea \(s\in  \mathbb{N} \) que satisface las condiciones planteadas, en particular
+
+				\[    \left  . s\, \middle \vert\,a_{n-1} \right  .    \text{ y }     \left  . s\, \middle \vert\,a_{n} \right  .   \]
+
+				Lo anterior implica \((\forall i \in     \left  [ n-2 \right  ]   :     \left  . s\, \middle \vert\,a_{i} \right  .   )\) y \(    \left  . s\, \middle \vert\, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right  .   \), es decir, 
+
+				\[    \left  . s\, \middle \vert\,  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )     \right  .   \]
+
+				Luego \(s \le  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )    \)<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-McdRecursivoMenorMcd" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">19</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(t\) es un entero positivo tal que \(    \left  . t\, \middle \vert\,a_{i} \right  .   \) para cada \(i\in \mathbb{N} MenoresIgualesA{n-2}\) y \(    \left  . t\, \middle \vert\, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right  .   \), entonces \(t \le  \operatorname{MCD}   \left  ( a_{1},a_{2},\dots,a_{n} \right  )   \)<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->En efecto, sea \(t\) un entero positivo que satisface las condiciones planteadas, como
+
+				\[    \left  .  \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )   \, \middle \vert\,a_{n-1} \right  .    \text{ y }    \left  .  \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )   \, \middle \vert\,a_{n} \right  .   \]
+
+				se tiene que \(    \left  . t\, \middle \vert\,a_{n-1} \right  .   \) y \(    \left  . t\, \middle \vert\,a_{n} \right  .   \). Por consiguiente \(\forall i \in     \left  [ n \right  ]   :     \left  . t\, \middle \vert\,a_{i} \right  .   \), es decir, 
+
+				\[    \left  . t\, \middle \vert\,  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots,a_{n} \right.\left.\Rule{0em}{1.2em}{0em}\right  )     \right  .   \]
+
+				Luego \(t \le  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots,a_{n} \right.\left.\Rule{0em}{1.2em}{0em}\right  )    \).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-RecursividadMcd" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">20</p> <!---->Recursividad del MCD<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Si \(a_{1}, a_{2},\dots,a_{n}\) son enteros no todos iguales a \(0\), entonces
+
+				\[ \operatorname{MCD}   \left  ( a_{1}, a_{2},\dots,a_{n} \right  )   = \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )   \]<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Por el <div id="ELE-McdMenorMcdRecursivo" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-McdMenorMcdRecursivo" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">18</span><!--]--> <!--[!--><!--]--></a></div><!----> \[ \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots,a_{n} \right.\left.\Rule{0em}{1.2em}{0em}\right  )    \le  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )   \]
+
+				y por el <div id="ELE-McdRecursivoMenorMcd" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-McdRecursivoMenorMcd" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">19</span><!--]--> <!--[!--><!--]--></a></div><!----> \[ \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )    \le  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots,a_{n} \right.\left.\Rule{0em}{1.2em}{0em}\right  )   \]
+
+				Así, se concluye que
+
+				\[ \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots,a_{n} \right.\left.\Rule{0em}{1.2em}{0em}\right  )    =  \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( a_{1}, a_{2},\dots, \operatorname{MCD}   \left  ( a_{n-1},a_{n} \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )      \]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Ejemplo</p> <p class="NumElemento svelte-o48oam">21</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Encontrar el máximo común divisor de \(105\), \(140\) y \(350\).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Solución</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Por el <div id="ELE-RecursividadMcd" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-RecursividadMcd" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">20</span><!--]--> <!--[--><span class="svelte-1letzo6">Recursividad del MCD</span><!--]--></a></div><!----> \[\begin{align*}
+				     \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( 105,140,350 \right.\left.\Rule{0em}{1.2em}{0em}\right  )   
+				    &amp;= \operatorname{MCD}   \left.\left.\Rule{0em}{1.2em}{0em}\right  ( 105, \operatorname{MCD}   \left  ( 140,350 \right  )    \right.\left.\Rule{0em}{1.2em}{0em}\right  )   \\
+				    &amp;= \operatorname{MCD}   \left  ( 105,70 \right  )   \\
+				    &amp;=35
+				\end{align*}\]
+
+				Lo cual puede calcularse manualmente obteniendo los factores primos comunes de cada par de enteros evaluados:
+				\[
+				    \begin{tblr}{
+				        colspec={Q[c]Q[c]Q[l]},
+				        baseline=T,
+				        hline{2} = {1-2}{solid},
+				        vline{2} = {dashed},
+				        vline{3} = {solid}
+				        }
+				        140&amp;350&amp;2\\
+				        70&amp;175&amp;5\\
+				        14&amp;35&amp;7\\
+				        2&amp;5
+				    \end{tblr}
+				    \longrightarrow 
+				    \begin{aligned}[t]
+				         \operatorname{MCD}   \left  ( 140,350 \right  )   &amp;=2 \cdot 5 \cdot 7\\
+				        &amp;=70
+				    \end{aligned}
+				    \longrightarrow
+				    \begin{tblr}{
+				        colspec={Q[c]Q[c]Q[l]},
+				        baseline=T,
+				        hline{2} = {1-2}{solid},
+				        vline{2} = {1-3}{dashed},
+				        vline{3} = {1-3}{solid}
+				        }
+				        105&amp;70&amp;5\\
+				        21&amp;14&amp;7\\
+				        3&amp;2\\
+				        \phantom{0}
+				    \end{tblr}
+				\longrightarrow
+				\begin{aligned}[t]
+				     \operatorname{MCD}   \left  ( 105,70 \right  )   &amp;=5 \cdot 7\\
+				    &amp;= 35
+				\end{aligned}
+				\]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PrimosMutuamenteRelativos" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">22</p> <!---->Primos mutuamente relativos<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Los enteros \(a_{1}, a_{2}, \dots, a_{n}\) son primos mutuamente relativos si \( \operatorname{MCD}   \left  ( a_{1}, a_{2}, \dots, a_{n} \right  )   =1\)<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PrimosRelativosPorParejas" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">23</p> <!---->Primos relativos por parejas<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Los enteros \(a_{1}, a_{2}, \dots, a_{n}\) son primos relativos por parejas si para cada \(i,j\in    \left  [ n \right  ]   \) con \(i \ne j\), entonces \( \operatorname{MCD}   \left  ( a_{i}, a_{j} \right  )   =1\), es decir, cualquier par de aquellos enteros son coprimos.<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-AlgoritmoEuclides" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">24</p> <!---->Algoritmo de Euclides<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a=r_{0}\) y \(b=r_{1}\) enteros tales que \(a\ge b > 0\). Para cada \(j\in  \mathbb{N}_{0} \), si \(r_{j+1} \ne 0\), definimos \(r_{j+2}\) como el residuo que se obtiene al dividir \(r_{j}\) entre \(r_{j+1}\) dado por el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!---->. ​<br/> Este proceso termina en un número finito de pasos, digamos \(n\), tal que \(r_{n}= \operatorname{MCD}   \left  ( a,b \right  )   \) es el último residuo distinto de cero.<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Sean \(a=r_{0}\) y \(b=r_{1}\) en \( \mathbb{N} \), con \(a\ge b\). Debido a que la sucesión  \(r_{0},r_{1},\dots \) de residuos distintos de cero cumple que
+				\[a=r_{0}\ge r_{1} > r_2 \cdots \ge 0\]
+				no puede tener más de \(a+1\) términos, este proceso termina en un número finito de pasos, digamos \(n\). ​<br/> Aplicando consecutivamente el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!----> \[n \text{ veces}
+				   \left  \downarrow \;\begin{aligned}
+				    r_{0}
+				    &amp;=q_{1}r_{1}+r_{2}
+				    &amp;&amp; 0&lt; r_{2} &lt;r_{1}\\
+				    r_{1}
+				    &amp;=q_{2}r_{2}+r_{3}
+				    &amp;&amp; 0&lt; r_{3} &lt;r_{2}\\
+				    &amp;\vdotswithin{=}
+				    &amp;&amp;\phantom{0}\vdotswithin{&lt;}\\
+				    r_{j}
+				    &amp;=q_{j+1}r_{j+1}+r_{j+2}
+				    &amp;&amp; 0&lt; r_{j+2} &lt;r_{j+1}\\
+				    &amp;\vdotswithin{=}
+				    &amp;&amp;\phantom{0}\vdotswithin{&lt;}\\
+				    r_{n-2}
+				    &amp;=q_{n-1}r_{n-1}+r_{n}
+				    &amp;&amp; 0&lt; r_{n} &lt;r_{n-1}\\
+				    r_{n-1}
+				    &amp;=q_{n}r_{n}+r_{n+1}
+				    &amp;&amp; 0=r_{n+1}&lt;r_{n}\\
+				\end{aligned}
+				 \right  .  \]
+
+				De manera que, utilizando el <div id="ITE-SumarMultiplosNoAlteraMcd" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ITE-SumarMultiplosNoAlteraMcd" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Inciso</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">b)</span><!--]--> <!--[!--><!--]--></a></div><!----> de la <div id="ELE-PropiedadesSumaDivisionMcd" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-PropiedadesSumaDivisionMcd" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Proposicion</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">11</span><!--]--> <!--[!--><!--]--></a></div><!----> de manera sucesiva
+
+				\[n \text{ veces}
+				   \left  \downarrow \;\begin{aligned}
+				     \operatorname{MCD}   \left  ( r_{0} , r_{1} \right  )   
+				    &amp;= \operatorname{MCD}   \left  ( q_{1}r_{1}+r_{2}, r_{1} \right  )   
+				    &amp;&amp;= \operatorname{MCD}   \left  ( r_{1} , r_{2} \right  )   \\
+				     \operatorname{MCD}   \left  ( r_{1} , r_{2} \right  )   
+				    &amp;= \operatorname{MCD}   \left  ( q_{2}r_{2}+r_{3}, r_{2} \right  )   
+				    &amp;&amp;= \operatorname{MCD}   \left  ( r_{2} , r_{3} \right  )   \\
+				    &amp;\vdotswithin{=}
+				    &amp;&amp;\vdotswithin{=}\\
+				     \operatorname{MCD}   \left  ( r_{j} , r_{j+1} \right  )   
+				    &amp;= \operatorname{MCD}   \left  ( q_{j+1}r_{j+1}+r_{j+2}, r_{j+1} \right  )   
+				    &amp;&amp;= \operatorname{MCD}   \left  ( r_{j+1} , r_{j+2} \right  )   \\
+				    &amp;\vdotswithin{=}
+				    &amp;&amp;\vdotswithin{=}\\
+				     \operatorname{MCD}   \left  ( r_{n-1} , r_{n-2} \right  )   
+				    &amp;= \operatorname{MCD}   \left  ( q_{n-1}r_{n-1}+r_{n}, r_{n-1} \right  )   
+				    &amp;&amp;= \operatorname{MCD}   \left  ( r_{n-1} , r_{n} \right  )   \\
+				     \operatorname{MCD}   \left  ( r_{n-1} , r_{n} \right  )   
+				    &amp;= \operatorname{MCD}   \left  ( q_{n}r_{n}+r_{n+1}, r_{n} \right  )   
+				    &amp;&amp;= \operatorname{MCD}   \left  ( r_{n} , r_{n+1} \right  )   
+				\end{aligned}
+				 \right  .  
+				\]
+				Es decir
+				\[ \operatorname{MCD}   \left  ( a,b \right  )   = \operatorname{MCD}   \left  ( r_{0},r_{1} \right  )   = \operatorname{MCD}   \left  ( r_{n},r_{n+1} \right  )   = \operatorname{MCD}   \left  ( r_{n},0 \right  )   =r_n\]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">25</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(n>1\) un entero positivo y \(  f_{n+1} ,   f_{n+2} \) términos sucesivos dados por <div id="ELE-SucesionFibonacci" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/01-Induccion-Matematica#ELE-SucesionFibonacci" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Definicion</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">12</span><!--]--> <!--[--><span class="svelte-1letzo6">Sucesión de Fibonacci</span><!--]--></a></div><!---->. Entonces el <div id="ELE-AlgoritmoEuclides" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoEuclides" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">24</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de Euclides</span><!--]--></a></div><!----> utiliza en exactamente \(n\) ocasiones el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!----> para exhibir que \( \operatorname{MCD}   \left  (   f_{n+2} ,  f_{n+1}  \right  )   =1\).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Recuerde que \(  f_{1} =1\), \(  f_{2} =1\) y \(  f_{n} \coloneq   f_{n-1} +  f_{n-2} \). ​<br/> Ahora, al utilizar en exactamente \(n\) ocasiones el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!---->.
+
+				\[n \text{ veces}
+				   \left  \downarrow \;\begin{aligned}
+				      f_{n+2} 
+				    &amp;=1\cdot  f_{n+1} +  f_{n} 
+				    &amp;&amp; 0&lt;   f_{n} &lt;  f_{n+1} \\
+				      f_{n+1} 
+				    &amp;=1\cdot  f_{n} +  f_{n-1} 
+				    &amp;&amp; 0&lt;   f_{n-1} &lt;  f_{n} \\
+				    &amp;\vdotswithin{=}
+				    &amp;&amp;\phantom{0}\vdotswithin{&lt;}\\
+				      f_{4} 
+				    &amp;=1\cdot  f_{3} +  f_{2} 
+				    &amp;&amp; 0&lt;   f_{2} &lt;  f_{3} \\
+				      f_{3} 
+				    &amp;=2\cdot  f_{2} +0
+				    &amp;&amp;\text{ ya que \(  f_{3} =2\) y \(  f_{2} =  f_{1} =1\)}
+				\end{aligned}
+				 \right  .  \]
+
+				y el <div id="ELE-AlgoritmoEuclides" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoEuclides" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">24</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de Euclides</span><!--]--></a></div><!---->, se exhibe que \( \operatorname{MCD}   \left  (   f_{n+2} ,   f_{n+1}  \right  )   =  f_{2} =1\).<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-McdCombinacionLinealResiduos" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">26</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a,b,n,k\) enteros positivos tales que \(a\ge b>0\) y \(n \ge k \ge 1\). ​<br/> Si \(a=r_{0}\) y \(b=r_{1}\), para cada \(j\in    \left  [ n \right  ]   \), sean \(q_{j}\) y \(r_{j+1}\) el cociente y el residuo, respectivamente, que se obtienen al aplicar el <div id="ELE-AlgoritmoDivision" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoDivision" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">6</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de la división</span><!--]--></a></div><!----> según el proceso descrito en el <div id="ELE-AlgoritmoEuclides" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-AlgoritmoEuclides" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">24</span><!--]--> <!--[--><span class="svelte-1letzo6">Algoritmo de Euclides</span><!--]--></a></div><!---->, de manera que \(r_{n}= \operatorname{MCD}   \left  ( a,b \right  )   \). ​<br/> Entonces si \( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{k}\) y \(r_{k+1}\), entonces \( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{k-1}\) y \(r_{k}\)<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Suponga que \( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{k}\) y \(r_{k+1}\), es decir,
+
+				\[\begin{align*}
+				    &amp;\exists u_{k},v_{k}\in \mathbb{Z} :  \operatorname{MCD}   \left  ( a,b \right  )   =u_{k}r_{k}+v_{k}r_{k+1}\\
+				    &amp;\implies  \operatorname{MCD}   \left  ( a,b \right  )   =u_{k}r_{k}+v_{k}(r_{k-1}-q_{k}r_{k})\\
+				    &amp;\implies  \operatorname{MCD}   \left  ( a,b \right  )   =v_{k}r_{k-1}+(u_{k}-v_{k}q_{k})r_{k}\\
+				    &amp;\implies \exists u_{k-1},v_{k-1}\in \mathbb{Z} :  \operatorname{MCD}   \left  ( a,b \right  )   =u_{k-1}r_{k-1}+v_{k-1}r_{k}
+				\end{align*}\]
+
+				 ​<em>i.e.</em> \( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{k-1}\) y \(r_{k}\)<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-McdEsCombinacionLineal" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Corolario</p> <p class="NumElemento svelte-o48oam">27</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->\( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(a\) y \(b\).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Margen<NOT-ObtenerMcdCombinacionLinealEspecifica>Sean \(a=r_{0}\) y \(b=r_{1}\), y para cada \(j\in    \left  [ n \right  ]   \), sean \(q_{j}\) y \(r_{j+1}\) el cociente y el residuo, respectivamente, descritos en el <div id="ELE-McdCombinacionLinealResiduos" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-McdCombinacionLinealResiduos" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">26</span><!--]--> <!--[!--><!--]--></a></div><!---->. Como \( \operatorname{MCD}   \left  ( a,b \right  )   =r_{n}=1\cdot r_{n}+0\cdot{r_{n+1}}\), se tiene que
+
+				\[\text{\( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{n}\) y \(r_{n+1}\)}\]
+
+				y al aplicar en \(n\) ocasiones el <div id="ELE-McdCombinacionLinealResiduos" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-McdCombinacionLinealResiduos" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Lema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">26</span><!--]--> <!--[!--><!--]--></a></div><!----> \[\begin{aligned}
+				    &amp;\text{\( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{n}\) y \(r_{n+1}\)}\\
+				    \text{\(n\) veces}
+				    &amp;   \left  \downarrow 
+				    \begin{aligned}
+				        &amp;\implies \text{\( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{n-1}\) y \(r_{n}\)}\\
+				        &amp;\vdotswithin{\implies}\\
+				        &amp;\implies \text{\( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(r_{0}\) y \(r_{1}\)}
+				    \end{aligned}
+				     \right  .  
+				\end{aligned}\]
+
+				 ​<em>i.e.</em> \( \operatorname{MCD}   \left  ( a,b \right  )   \) es combinación lineal de \(a=r_{0}\) y \(b=r_{1}\).</NOT-ObtenerMcdCombinacionLinealEspecifica><!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">28</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a,b\in \mathbb{N} \) tales que \(    \left  . a\, \middle \vert\,bc \right  .   \) y \( \operatorname{MCD}   \left  ( a,b \right  )   =1\), entonces \(    \left  . a\, \middle \vert\,c \right  .   \)<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Por el <div id="ELE-IdentidadBezout" class="LinkUniversal svelte-1letzo6"><a href="/01-Fundamentos/02-Divisibilidad-Primos#ELE-IdentidadBezout" class="svelte-1letzo6"><!--[--><span class="svelte-1letzo6">Teorema</span><!--]--> <!--[!--><!--[!--><!--[!--><!--[!--><!--[!--><!--]--><!--]--><!--]--><!--]--><!--]--> <!--[--><span class="Alfanumerico svelte-1letzo6">13</span><!--]--> <!--[--><span class="svelte-1letzo6">Identidad de Bézout</span><!--]--></a></div><!----> \[\exists s,t \in  \mathbb{Z} : 1=sa+tb\]
+
+				Note que \(    \left  . a\, \middle \vert\,sac \right  .    \land     \left  . a\, \middle \vert\,tbc \right  .   \) pues \(    \left  . a\, \middle \vert\,bc \right  .   \). Es decir
+
+				\[
+				        \left  . a\, \middle \vert\,sac+tbc \right  .   
+				    \implies    \left  . a\, \middle \vert\,(sa+tb)c \right  .   
+				    \implies    \left  . a\, \middle \vert\,c \right  .     
+				\]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-PrimoDivideProductoEntoncesDivideFactor" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Lema</p> <p class="NumElemento svelte-o48oam">29</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a_{1},\dots,a_{n}\) enteros positivos y \(p\) un número primo. Si \(    \left  . p\, \middle \vert\,a_{1}\cdots a_{n} \right  .   \), entonces existe \(i\in    \left  [ n \right  ]   \) tal que \(    \left  . p\, \middle \vert\,a_{i} \right  .   \).<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><!---->Procedamos por inducción sobre el número de factores \(n\)
+
+				\[\vdash \forall n \in \mathbb{N} :     \left  . p\, \middle \vert\,a_{1}\cdots a_{n} \implies    \left  ( \exists i \in     \left  [ n+1 \right  ]   :     \left  . p\, \middle \vert\,a_{i} \right  .    \right  )   \right  .   \] <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Base Inductiva<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->El resultado es inmediato.
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Paso Inductivo<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Supóngase que el resultado se cumple para \(n\) factores y que \(    \left  . p\, \middle \vert\,a_{1}\cdots a_{n}a_{n+1} \right  .   \), luego
+
+								\[    \left  . p\, \middle \vert\,a_{n+1}(a_{1}\cdots a_{n}) \right  .   \] <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(    \left  . p\, \middle \vert\,a_{n+1} \right  .   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(i=n+1\) es tal que \(    \left  . p\, \middle \vert\,a_{i} \right  .   \).
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(    \left  . p\;\mathclap{ \;\diagup } \middle \vert\;a_{n+1} \right  .   \)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->entonces \( \operatorname{MCD}   \left  ( p,a_{n+1} \right  )   =1\), luego
+
+												\[\begin{align*}
+												     &amp;    \left  . p\, \middle \vert\,a_{n+1}(a_{1}\cdots a_{n}) \right  .   \\
+												     &amp;\implies     \left  . p\, \middle \vert\,a_{1}\cdots a_{n} \right  .    \tag*{por Hipótesis Inductiva}\\
+												     &amp;\implies \exists i\in     \left  [ n \right  ]   :     \left  . p\, \middle \vert\,a_{i} \right  .   
+												\end{align*}\]
+
+										<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> En cualquier caso, \(\exists i\in     \left  [ n+1 \right  ]   :     \left  . p\, \middle \vert\,a_{i} \right  .   \).
+						<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> Por lo tanto
+
+				\[\forall n \in \mathbb{N} :     \left  . p\, \middle \vert\,a_{1}\cdots a_{n} \implies    \left  ( \exists i \in     \left  [ n \right  ]   :     \left  . p\, \middle \vert\,a_{i} \right  .    \right  )   \right  .     \]<!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-TeoremaFundamentalAritmetica" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Teorema</p> <p class="NumElemento svelte-o48oam">30</p> <!----><!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Todo número positivo mayor a \(1\) se puede factorizar de manera única como un producto de números primos.<!----></div><!----><!----></div><!----> <div class="ContenedorComponente svelte-rupame"><!--[!--><div class="Componente svelte-1fzji72"><p class="TipoComponente svelte-1fzji72">Demostración</p> <p class="NumComponente svelte-1fzji72">A</p> <p class="NombreComponente svelte-1fzji72"><!----><!----></p></div><!--]--><!----> <div class="ContenidoComponente svelte-69a5e3"><table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Margen<NOT-AlternativaMayorUnoImplicaProductoPrimos>Para ello, procedamos por contradicción. <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(\exists n \in  \mathbb{N}  : n>1\) y \(n\) no se puede factorizar como producto de números primos<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Sea
+
+												\[A=    \left.\left.\Rule{0em}{3em}{0em}\right  \{ k\in \mathbb{N} \; \left.\Rule{0em}{3em}{0em}\right \vert\;
+												    \begin{aligned}
+												        &amp;k>1\land\\
+												        &amp;k \text{ no es producto de primos}
+												    \end{aligned} \right.\left.\Rule{0em}{3em}{0em}\right  \}   
+												\]
+
+												Note que \(A \subseteq  \mathbb{N} \) y \(A \ne \varnothing\), ya que \(n \in A\). Luego, \(A\) tiene mínimo. Sea \(m=\min(A)\). <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">1.1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(m\) es primo<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->\(m\) se factoriza como producto de primos, donde \(m\) sería el único factor.
+														<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> Luego \(m\) es un número compuesto,  ​<em>i.e.</em> , \(m=ab\) con \(1&lt;a,b&lt;m\), de ahí que \(a,b\notin A\), es decir
+
+												\[a=p_{1}\cdots p_{r} \text{ y } b=q_{1}\cdots q_{s}\]
+
+												donde \(p_{i}\) y \(q_{j}\) son números primos para cada \(i\in    \left  [ r \right  ]   \) y \(j\in    \left  [ s \right  ]   \), respectivamente, y además
+
+												\[p_{1}\le \cdots \le p_{r} \text{ y } q_{1}\le \cdots \le q_{s}\]
+
+												Así,
+												\[m=ab=p_{1} \cdots p_{r} \cdot q_{1} \cdots q_{s}\]
+												por lo que \(m\) es producto de primos, es decir, \(m\notin A\)
+										<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> Por lo tanto,
+
+								\[\forall n \in  \mathbb{N}  : n>1 \implies n= \prod_{i=1}^{k} p_i\]
+
+								donde \(k \in  \mathbb{N} \) y \(p_{i}\) es un número primo para cada \(i\in    \left  [ k \right  ]   \). 
+						</NOT-AlternativaMayorUnoImplicaProductoPrimos><!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----> <tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!----><!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Suponga que
+
+								\[p_{1}\cdots p_{s} = q_{1}\cdots q_{t}\]
+
+								con \(p_{i}\) y \(q_{j}\) primos para cada \(i\in    \left  [ s \right  ]   \) y \(j\in    \left  [ t \right  ]   \), y además
+
+								\[p_{1}\le \cdots \le p_{s} \text{ y } q_{1}\le \cdots \le q_{t}\]
+
+								Sin pérdida de la generalidad, supóngase que \(s\le t\). Observe que <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Se satisface la igualdad \(p_{s}=q_{t}\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Observe que \(p_{1}\cdots p_{s}= q_{1}\cdots q_{t} \implies     \left  . p_{s}\, \middle \vert\,q_{1}\cdots q_{t} \right  .   \), luego
+
+												\[\exists j\in    \left  [ t \right  ]   :     \left  . p_{s}\, \middle \vert\,q_{j} \right  .   \]
+
+												Como \(    \left  . p_{s}\, \middle \vert\,q_{j} \right  .   \), se cumple que \(p_{s}=q_{j}\). Ahora <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.1.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(q_{j}&lt;q_{t}\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Note que \(    \left  . q_{t}\, \middle \vert\,p_{1}\cdots p_{s} \right  .   \), es decir \(\exists k\in  \mathbb{N} MenoresIgualesA{s}:     \left  . q_{t}\, \middle \vert\,p_{k} \right  .   \). Como \(    \left  . q_{t}\, \middle \vert\,p_{k} \right  .   \), se tiene que \(q_{t}=p_k\). Sin embargo
+
+																\[q_{j}&lt;q_{t}=p_k \le p_{s}=q_{j}\]
+
+																Lo cual no es posible.
+														<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> y en consecuencia, se obtiene que \(p_{s} = q_{j} =q_{t}\).
+										<!----> <!--[!--><!--]--> <!--[--><div class="FinalContenedorInciso PorDemostrar svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">check_box_outline_blank</span></div><!--]--></div><!----><!----></th></tr><!----></table><!----> Ahora <table class="ListaFragmentos svelte-dt1hii"><tr class="ContenedorInciso svelte-1d5vmqd"><th class="Alfanumerico svelte-1d5vmqd"><span class="IncisoNumerado svelte-1d5vmqd">2.1.</span><span class="IncisoNoNumerado svelte-1d5vmqd">•</span></th><th class="NoAlfanumerico svelte-1d5vmqd"><div class="Inciso svelte-1fub3j9"><div class="Argumento svelte-1fub3j9"><!---->Si \(s&lt;t\)<!----></div></div><!----> <div class="ContenidoInciso svelte-kaymmj"><!---->Se tiene que al aplicar sucesivamente la cancelación por la derecha
+
+												\[
+												    s \text{ veces}   \left  \downarrow \;
+												        \begin{aligned}
+												            p_{s}=q_{t\phantom{-(s-1)}}
+												            &amp;\implies p_{1}\cdots p_{s-1}=q_{1}\cdots q_{t-1}\\
+												            &amp;\vdotswithin{\implies}\\
+												            p_{1}=q_{t-(s-1)}
+												            &amp;\implies 1=q_{1}\cdots q_{t-s}
+												        \end{aligned}
+												     \right  .  
+												\]
+										<!----> <!--[--><div class="FinalContenedorInciso Contradiccion svelte-kaymmj"><span class="material-symbols-rounded svelte-kaymmj">cancel</span> Contradicción</div><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----></table><!----> Por lo tanto \(s=t\) y así, aplicando sucesivamente la cancelación por la derecha
+
+								\[
+								    s \text{ veces}   \left  \downarrow 
+								        \;\begin{aligned}
+								            p_{s}=q_{s}
+								            &amp;\implies p_{1}\cdots p_{s-1}=q_{1}\cdots q_{s-1}\\
+								            &amp;\vdotswithin{\implies}\\
+								            p_{1}=q_{1}
+								            &amp;\implies 1=1
+								        \end{aligned}
+								     \right  .  
+								\]
+
+								por lo que los primos en ambos productos coinciden. Así, la factorización de cualquier entero \(n\) como producto de números primos, si existe, debe ser única.
+						<!----> <!--[!--><!--]--> <!--[!--><!--]--></div><!----><!----></th></tr><!----><!----></table><!----> <!--[--><div class="FinalContenedorComponente SolucionDemostracion svelte-69a5e3"><span class="material-symbols-rounded svelte-69a5e3">square</span></div><!--]--></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[--><div id="ELE-MCM" class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">31</p> <!---->Mínimo común múltiplo<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->El mínimo común múltiplo de dos enteros \(a\) y \(b\) distintos de cero, es el entero positivo más pequeño \(m\) que simultáneamente es múltiplo de \(a\) y de \(b\), el cual se denota por
+
+				\[ \operatorname{mcm}   \left  ( a,b \right  )    \text{ o simplemente }     \left  ( a,b \right  )   \]<!----></div><!----><!----></div><!----> <div class="ContenedorElemento svelte-1lxf4i4"><!--[!--><div class="Elemento svelte-o48oam"><p class="TipoElemento svelte-o48oam">Definición</p> <p class="NumElemento svelte-o48oam">32</p> <!---->Mínimo común múltiplo<!----></div><!--]--><!----> <div class="ContenidoElemento svelte-1yakh7w"><!---->Sean \(a_{1}, a_{2},\dots,a_{n}\) enteros distintos de cero. Su mínimo común múltiplo es el entero positivo más pequeño que es múltiplo de cada uno de los enteros \(a_{1}, a_{2},\dots, a_{n}\). ​<br/> El mínimo común múltiplo de \(a_{1}, a_{2},\dots,a_{n}\) es denotado por
+
+				\[ \operatorname{mcm}   \left  ( a_{1}, a_{2},\dots,a_{n} \right  )    \text{ o simplemente }     \left  ( a_{1}, a_{2},\dots,a_{n} \right  )   \]<!----></div><!----><!----></div><!----><!----><!----><!----><!----><!----><!----></div><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1m6rqw = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../app/immutable/entry/start.CI3RQimK.js"),
+						import("../app/immutable/entry/app.BTvde4j5.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data: [null,null],
+							form: null,
+							error: null,
+							remote: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
